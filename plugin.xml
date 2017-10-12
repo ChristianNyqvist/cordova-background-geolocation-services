@@ -66,6 +66,11 @@
             <string>TEST WIL TOEGANG BIJ GEBRUIK</string>
         </config-file>
         
+        <config-file target="*-Info.plist" parent="NSLocationUsageDescription">
+            <string>TEST WIL TOEGANG TOT HUIDIGE LOCATIE</string>
+        </config-file>
+        
+        
         <!-- Usage description of Motion, mandatory since iOS 10 -->
         <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
             <string>Christian would Like to Use Motion Data.</string>
