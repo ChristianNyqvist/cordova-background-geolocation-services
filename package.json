@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "Cordova Background Geolocation Plugin For Anrdoid and iOS With JS Callbacks",
   "cordova": {
-    "id": "cordova-background-location-services",
+    "id": "cordova-christian-background",
     "platforms": [
       "android",
       "ios"
