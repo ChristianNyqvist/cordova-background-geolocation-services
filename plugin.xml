@@ -59,11 +59,11 @@
         
         <preference name="NSLOCATIONALWAYSUSAGESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>TEST WIL TOEGANG</string>
+            <string>TEST WIL ALTIJD TOEGANG</string>
         </config-file>
         
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>TEST WIL TOEGANG</string>
+            <string>TEST WIL TOEGANG BIJ GEBRUIK</string>
         </config-file>
         
         <!-- Usage description of Motion, mandatory since iOS 10 -->
