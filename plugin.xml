@@ -59,22 +59,18 @@
         
         <preference name="NSLOCATIONALWAYSUSAGESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>$NSLOCATIONALWAYSUSAGESCRIPTION</string>
+            <string>TEST WIL TOEGANG</string>
+        </config-file>
+        
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>TEST WIL TOEGANG</string>
         </config-file>
         
         <!-- Usage description of Motion, mandatory since iOS 10 -->
         <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
             <string>Christian would Like to Use Motion Data.</string>
         </config-file>
-
-        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>Peter would like to Use Your Current Location when in use.</string>
-        </config-file>
-
-        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUsageDescription">
-            <string>Walter would ALWAYS like to Use Your Current Location Even In Background.</string>
-        </config-file>
-        
+     
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
                 <string>location</string>
